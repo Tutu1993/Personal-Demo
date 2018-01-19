@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom'
 import { store, history } from 'jsDir/store.js'
 
 import Index from 'componentDir/Index.js'
-import Calc from 'componentDir/Calc.js'
+import Calc from 'componentDir/calc/Calc.js'
 
 class App extends React.Component {
 	render() {
